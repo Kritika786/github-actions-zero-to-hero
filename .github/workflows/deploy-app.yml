@@ -25,4 +25,4 @@ jobs:
               uses: docker/setup-compose-action@v2 
 
             - name: deploy with docker compose
-              run:  sudo docker compose down && docker compose up -d --build --force-recreate --pull always
+              run:  sudo docker-compose down && docker-compose up -d --build --force-recreate
