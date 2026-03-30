@@ -26,4 +26,3 @@ jobs:
 
             - name: deploy with docker compose
               run:  sudo docker compose down && docker compose up -d --build --force-recreate --pull always
-
